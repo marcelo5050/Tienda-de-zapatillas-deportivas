@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Zapatillas Deportivas "PIERS"</title>
+
+    <meta property="og:title" content="Tienda de Zapatillas Deportivas">
+    <meta property="og:description" content="La mejor selección de zapatillas deportivas de las mejores marcas.">
+    <meta property="og:image" content="https://elcomercio.pe/resizer/Bb26nE4rs6Y9doflKey3NiZBUh0=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/3ISPOW4STRERNIWKETTQ7IMDUQ.jpg">
+    <meta property="og:url" content="http://tienda de zapatillas deportivas piers/pagina.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/fa0889375f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Zapatillas Deportivas "PIERS"</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a nuestra tienda virtual</h2>
+        <p>Ofrecemos una amplia selección de zapatillas deportivas de las mejores marcas.</p>
+        <a href="#catalogo" class="boton">Ver Catálogo</a>
+    </section>
+
+    <section id="catalogo">
+        <h2>Catálogo</h2>
+        <ul>
+            <li>
+                <img src="https://coliseum.vteximg.com.br/arquivos/ids/536441-1000-1000/Zapatillas-Hombre-Umbro-Classico-XI-Lt-Ic-81899U-A61_1.jpg?v=638129411919500000" width="200" height="150">
+                <h3>Zapatillas Umbro</h3>
+                <p>Precio: $150</p>
+            </li>
+            <li>
+                <img src="https://home.ripley.com.pe/Attachment/WOP_5/2084292329269/2084292329269_2.jpg" width="200" height="150">
+                <h3>Chimpunes Umbro</h3>
+                <p>Precio: $250</p>
+            </li>
+            <li>
+                <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/e207115986f5429a906eaea900fcc11c_9366/Zapatos_de_Futbol_Predator_Edge.4_Cancha_Cubierta_Futsal_Blanco_GV8512.jpg" width="200" height="150">
+                <h3>Zapatillas Adidas</h3>
+                <p>Precio: $200</p>
+            </li>
+            <li>
+                <img src="https://oechsle.vteximg.com.br/arquivos/ids/11511476-1000-1000/2212213.jpg?v=637995518014370000 width="200" height="150"">
+                <h3>Zapatillas Puma</h3> 
+                <p>Precio: $170</p>
+            </li>
+            <li>
+                <img src="https://falabella.scene7.com/is/image/FalabellaPE/17899172_1?wid=800&hei=800&qlt=70" width="200" height="150">
+                <h3>Chimpunes Puma</h3> 
+                <p>Precio: $200</p>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <fieldset><fieldset style="background-color:white; border:5px solid black">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o consulta, no dudes en ponerte en contacto con nosotros.</p>
+        <form action="enviar_formulario.php" method="post">
+            <p><label for="nombre"><i class="fa-solid fa-user"></i>Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required></p>
+            <p><label for="email"><i class="fa fa-envelope" aria-hidden="true"></i>Email:</label>
+            <input type="email" id="email" name="email" required></p>
+            <p><label for="mensaje"><i class="fa fa-envelope" aria-hidden="true"></i>Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea></p>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Zapatillas Deportivas "PIERS" . Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
